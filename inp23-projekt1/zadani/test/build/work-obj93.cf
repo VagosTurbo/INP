@@ -1,0 +1,4 @@
+v 4
+file "/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/" "../src/cpu.vhd" "2e6c146b263ee848438ebaa5f102c59560575f07" "20231126150033.693":
+  entity cpu at 1( 0) + 0 on 11;
+  architecture behavioral of cpu at 42( 2019) + 0 on 12;
