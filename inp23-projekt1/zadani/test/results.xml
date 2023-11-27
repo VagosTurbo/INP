@@ -1,32 +1,68 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1701010833" />
-    <testcase name="test_reset" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="10" time="0.0012934207916259766" sim_time_ns="51.000001" ratio_time="39430.324091115945" />
-    <testcase name="test_init" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="26" time="0.0174105167388916" sim_time_ns="1055.0000009999999" ratio_time="60595.55938643346">
+    <property name="random_seed" value="1701102552" />
+    <testcase name="test_reset" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="11" time="0.0012180805206298828" sim_time_ns="51.000001" ratio_time="41869.154079918575" />
+    <testcase name="test_debug_00" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="29" time="0.005186557769775391" sim_time_ns="180.000001" ratio_time="34705.09902520474" />
+    <testcase name="test_debug_01" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="35" time="0.004111528396606445" sim_time_ns="150.000001" ratio_time="36482.7836587013" />
+    <testcase name="test_debug_02" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="41" time="0.006001472473144531" sim_time_ns="320.000001" ratio_time="53320.24806111171" />
+    <testcase name="test_debug_03" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="47" time="0.0038521289825439453" sim_time_ns="160.000001" ratio_time="41535.47342912075" />
+    <testcase name="test_debug_04" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="53" time="0.00941610336303711" sim_time_ns="700.000001" ratio_time="74340.73034370548" />
+    <testcase name="test_debug_05" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="59" time="0.008178234100341797" sim_time_ns="460.0000010000001" ratio_time="56246.8615297739" />
+    <testcase name="test_debug_06" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="65" time="0.010452032089233398" sim_time_ns="650.0000009999999" ratio_time="62188.86389275083" />
+    <testcase name="test_debug_07" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="72" time="0.022768497467041016" sim_time_ns="1740.0000010000003" ratio_time="76421.38017753571" />
+    <testcase name="test_debug_08" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="80" time="0.006539344787597656" sim_time_ns="370.00000099999943" ratio_time="56580.59224858909">
       <failure />
     </testcase>
-    <testcase name="test_increment" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="33" time="0.017642974853515625" sim_time_ns="1055.000001" ratio_time="59797.17194857168">
+    <testcase name="test_debug_09" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="89" time="0.024103641510009766" sim_time_ns="1740.0000010000003" ratio_time="72188.26251947918" />
+    <testcase name="test_debug_10" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="98" time="0.020871400833129883" sim_time_ns="1520.0000010000003" ratio_time="72826.9277732069" />
+    <testcase name="test_debug_11" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="107" time="0.017009258270263672" sim_time_ns="1190.0000010000003" ratio_time="69961.89851972618" />
+    <testcase name="test_debug_12" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="116" time="0.020825862884521484" sim_time_ns="1580.0000009999985" ratio_time="75867.20462729591" />
+    <testcase name="test_debug_13" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="125" time="0.021669387817382812" sim_time_ns="1580.0000010000003" ratio_time="72913.91959548352" />
+    <testcase name="test_debug_14" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="134" time="0.05420827865600586" sim_time_ns="3420.0000010000003" ratio_time="63089.994476721695" />
+    <testcase name="test_debug_15" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="143" time="1.7871689796447754" sim_time_ns="140010.000001" ratio_time="78341.78054546859" />
+    <testcase name="test_debug_16" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="157" time="0.01626873016357422" sim_time_ns="1120.0000009999785" ratio_time="68843.72595395707" />
+    <testcase name="test_debug_17" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="166" time="0.02243781089782715" sim_time_ns="1630.0000010000076" ratio_time="72645.23301414645" />
+    <testcase name="test_debug_18" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="175" time="0.02143383026123047" sim_time_ns="1560.0000010000076" ratio_time="72782.13842262888" />
+    <testcase name="test_debug_19" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="188" time="1.7569077014923096" sim_time_ns="142930.00000099998" ratio_time="81353.16378862468" />
+    <testcase name="test_debug_20" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="204" time="0.2358388900756836" sim_time_ns="17620.000001000008" ratio_time="74712.02054650754" />
+    <testcase name="test_debug_21" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="225" time="2.113380193710327" sim_time_ns="170460.000001" ratio_time="80657.51752018374" />
+    <testcase name="test_debug_22" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="252" time="0.004254817962646484" sim_time_ns="180.00000100000761" ratio_time="42304.98286419007" />
+    <testcase name="test_debug_23" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="258" time="0.01091909408569336" sim_time_ns="690.0000010000076" ratio_time="63192.055639860606" />
+    <testcase name="test_debug_24" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="264" time="0.7566792964935303" sim_time_ns="62120.00000099995" ratio_time="82095.5460111906" />
+    <testcase name="test_debug_25" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="273" time="0.5968799591064453" sim_time_ns="50055.00000100001" ratio_time="83861.08335072009">
       <failure />
     </testcase>
-    <testcase name="test_decrement" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="42" time="0.017160654067993164" sim_time_ns="1055.0000009999999" ratio_time="61477.843258183915">
+    <testcase name="test_debug_26" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="288" time="0.010707378387451172" sim_time_ns="720.0000010000076" ratio_time="67243.35079479706" />
+    <testcase name="test_debug_27" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="297" time="0.053734540939331055" sim_time_ns="4300.000001000008" ratio_time="80023.01547257879" />
+    <testcase name="test_debug_28" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="306" time="0.23676252365112305" sim_time_ns="19430.000001000008" ratio_time="82065.35266379706" />
+    <testcase name="test_debug_29" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="315" time="0.01105809211730957" sim_time_ns="680.0000010000076" ratio_time="61493.42886514599">
       <failure />
     </testcase>
-    <testcase name="test_move" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="50" time="0.017910480499267578" sim_time_ns="1055.0000009999999" ratio_time="58904.05905319751">
+    <testcase name="test_break_while_while" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="324" time="0.25550317764282227" sim_time_ns="21710.000001000008" ratio_time="84969.58903324972" />
+    <testcase name="test_break_while_while_2" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="332" time="0.3194468021392822" sim_time_ns="27490.000001000008" ratio_time="86055.01703853048" />
+    <testcase name="test_hello_world" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="341" time="12.475359916687012" sim_time_ns="1000055.000001" ratio_time="80162.41669014526">
       <failure />
     </testcase>
-    <testcase name="test_print" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="58" time="0.05592608451843262" sim_time_ns="3555.0000010000003" ratio_time="63566.04492539276">
+    <testcase name="test_init" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="349" time="0.0032014846801757812" sim_time_ns="100.00000100000761" ratio_time="31235.50820631039" />
+    <testcase name="test_increment" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="356" time="0.004715442657470703" sim_time_ns="230.00000100000761" ratio_time="48775.90879736758" />
+    <testcase name="test_decrement" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="365" time="0.0049092769622802734" sim_time_ns="230.00000100000761" ratio_time="46850.07645060152" />
+    <testcase name="test_move" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="373" time="0.003924131393432617" sim_time_ns="180.00000100000761" ratio_time="45870.02395007813" />
+    <testcase name="test_print" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="382" time="0.01399850845336914" sim_time_ns="1190.0000010000076" ratio_time="85009.05685516803" />
+    <testcase name="test_input" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="389" time="0.031655073165893555" sim_time_ns="2440.0000010000076" ratio_time="77080.85172360181" />
+    <testcase name="test_while_loop" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="399" time="0.015821218490600586" sim_time_ns="1280.0000010000076" ratio_time="80904.00886382158" />
+    <testcase name="test_break" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="407" time="0.005225658416748047" sim_time_ns="270.0000010000076" ratio_time="51668.130495224745" />
+    <testcase name="test_login_boriss" classname="cpu" file="&lt;makefun-gen-1&gt;" lineno="1" time="0.0001418590545654297" sim_time_ns="1.00000761449337e-06" ratio_time="0.007049304096638656">
       <failure />
     </testcase>
-    <testcase name="test_input" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="64" time="0.08342123031616211" sim_time_ns="5155.000001" ratio_time="61794.821072079845">
+    <testcase name="test_example_abc" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="433" time="0.09547638893127441" sim_time_ns="8580.000001000008" ratio_time="89865.14987675165" />
+    <testcase name="test_example_hello" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="440" time="0.02493762969970703" sim_time_ns="2270.0000010000076" ratio_time="91027.09553132372" />
+    <testcase name="test_example_text" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="447" time="0.26793718338012695" sim_time_ns="21530.000000999775" ratio_time="80354.65525684356" />
+    <testcase name="test_example_sum" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="454" time="4.604958534240723" sim_time_ns="376760.000001" ratio_time="81816.15473832299" />
+    <testcase name="test_example_hello_world" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="466" time="0.2923164367675781" sim_time_ns="24650.000001000008" ratio_time="84326.42472513208" />
+    <testcase name="test_example_bsort" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="473" time="6.099270343780518" sim_time_ns="500055.00000100024" ratio_time="81986.03633152791">
       <failure />
     </testcase>
-    <testcase name="test_while_loop" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="74" time="0.09093451499938965" sim_time_ns="5055.0000009999985" ratio_time="55589.45358683584">
-      <failure />
-    </testcase>
-    <testcase name="test_break" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="82" time="0.08491277694702148" sim_time_ns="5055.000001" ratio_time="59531.676889496855">
-      <failure />
-    </testcase>
-    <testcase name="test_login_boriss" classname="cpu" file="&lt;makefun-gen-1&gt;" lineno="1" time="0.00016808509826660156" sim_time_ns="1.0000003385357559e-06" ratio_time="0.005949369389960106">
+    <testcase name="test_printf" classname="cpu" file="/home/boriss/Documents/VUT-FIT/2BIT-ZIMNY/INP/inp23-projekt1/zadani/test/scripts/cpu_lib.py" lineno="489" time="11.904334545135498" sim_time_ns="1000055.0000009998" ratio_time="84007.63572371671">
       <failure />
     </testcase>
   </testsuite>

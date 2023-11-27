@@ -67,15 +67,15 @@ architecture behavioral of cpu is
   signal curr_state: cpu_state := init_state;
   signal next_state: cpu_state;
 
-  signal pc_reg   : std_logic_vector(12 downto 0);
+  signal pc_reg   : std_logic_vector(12 downto 0) := (others => '0');
   signal pc_inc   : std_logic;
   signal pc_dec   : std_logic;
 
-  signal ptr_reg  : std_logic_vector(12 downto 0);
+  signal ptr_reg  : std_logic_vector(12 downto 0) := (others => '0');
   signal ptr_inc  : std_logic;
   signal ptr_dec  : std_logic;
 
-  signal cnt_reg  : std_logic_vector(7 downto 0);
+  signal cnt_reg  : std_logic_vector(7 downto 0) := (others => '0');
   signal cnt_inc  : std_logic;
   signal cnt_dec  : std_logic;
 
@@ -155,10 +155,8 @@ begin
 
   fsm: process(CLK, RESET, curr_state, next_state) is
     begin
-      DATA_EN <= '0';
       OUT_WE <= '0';
       IN_REQ <= '0';
-      OUT_DATA <= (others => '0');
       READY <= '0';
       DONE <= '0';
 
@@ -289,7 +287,7 @@ begin
 
       when putchar_state =>
         if (OUT_BUSY = '0') then          -- only if lcd is not busy
-        OUT_DATA <= DATA_RDATA;           -- write DATA_RDATA to OUT_DATA
+          OUT_DATA <= DATA_RDATA;         -- write DATA_RDATA to OUT_DATA
           OUT_WE <= '1';                  -- write OUT_DATA to lcd
           pc_inc <= '1';                  -- next instruction
           next_state <= fetch_state;
